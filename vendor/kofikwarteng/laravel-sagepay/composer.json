@@ -1,0 +1,22 @@
+{
+    "name": "kofikwarteng/laravel-sagepay",
+    "description": "Laravel 5.x Sagepay Integration",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "payment", "processor", "sagepay"],
+    "authors": [
+        {
+            "name": "Kofi Kwarteng",
+            "email": "kofi@kofikwarteng.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    "php": ">=5.5.9"
+},
+    "autoload": {
+        "psr-4": {
+            "Kofikwarteng\\LaravelSagepay\\": "src/"
+        }
+    }
+}
